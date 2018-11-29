@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "pomd",
+    "description": "Simple pomodoro timer",
+    "slug": "pomd",
+    "privacy": "public",
+    "sdkVersion": "31.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "icon": "./assets/icon.png",
+    "orientation": "portrait",
+    "primaryColor": "#333",
+    "packagerOpts": {
+      "assetExts": ["ttf"]
+  },
+    "androidStatusBarColor": "#A03538",
+    "androidStatusBar": {
+      "backgroundColor": "#A03538",
+      "barStyle": "light-content"
+    },
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "dev.tiaan.pomd",
+      "versionCode": 1,
+      "permissions": ["VIBRATE", "ACCESS_NOTIFICATION_POLICY", "READ_EXTERNAL_STORAGE", "READ_INTERNAL_STORAGE", "WRITE_EXTERNAL_STORAGE"]
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "dev.tiaan.pomd"
+    }
+  }
+}
