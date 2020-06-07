@@ -11,7 +11,7 @@
     "lint": "standard --fix"
   },
   "dependencies": {
-    "expo": "^31.0.2",
+    "expo": "^37.0.11",
     "prop-types": "^15.6.2",
     "react": "16.5.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.0.tar.gz",
